@@ -22,7 +22,6 @@ body{
   line-height: 1.6em;
 }
 
-
 h1{
   font-family: 'anurati';
   font-size: 22px;
@@ -56,7 +55,7 @@ a{
 }
 
 a:hover{
-  color: black;
+  color: #C02425;
   text-decoration: none;
 }
 
@@ -65,12 +64,16 @@ table{
   line-height: 1.6em;
 }
 
-
-
 /* First simple components */
+
+.navbar {
+  background-color: black;
+  height: 5vh;
+}
 
 .list-inline {
   padding-left: 0;
+  margin: 0 auto;
 }
 
 .list-inline li {
@@ -80,7 +83,7 @@ table{
 
 .container{
   /*width: 100vh;*/
-  height: 100vh;
+  height: 90vh;
   margin: 0px auto;
   display: flex;
   align-items: center;
