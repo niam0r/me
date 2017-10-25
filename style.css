@@ -15,21 +15,21 @@
 
 body{
  background: #C02425;  /* fallback for old browsers */
- background: -webkit-linear-gradient(to left, #F0CB35, #C02425);  /* Chrome 10-25, Safari 5.1-6 */
- background: linear-gradient(to left, #F0CB35, #C02425); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  font-family: 'stellar';
+ background: -webkit-linear-gradient(to left, #F0CB35, #C02425);
+ background: linear-gradient(to left, #F0CB35, #C02425);
+  font-family: 'stellar', 'Monserrat';
   font-size: 15px;
   line-height: 1.6em;
 }
 
 h1{
-  font-family: 'anurati';
+  font-family: 'stellar', 'Monserrat';
   font-size: 22px;
   color: white;
 }
 
 h2, h3{
-  font-family: 'stellar';
+  font-family: 'stellar', 'Monserrat';
 }
 
 h2{
@@ -44,7 +44,7 @@ h3{
 
 p{
   text-align: justify;
-  font-family: 'stellar';
+  font-family: 'stellar', 'Monserrat';
   font-size: 14px;
   color: #ccc;
 }
