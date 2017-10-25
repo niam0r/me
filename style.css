@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'stellar';
      src: url('fonts/stellar/stellar-bold.otf'),
-          url('fonts/stellar/stellar-ligtt.otf'),
+          url('fonts/stellar/stellar-light.otf'),
           url('fonts/stellar/stellar-medium.otf'),
           url('fonts/stellar/stellar-regular.otf');
 }
@@ -71,6 +71,13 @@ table{
   height: 5vh;
 }
 
+.footer {
+  background-color: black;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+}
+
 .list-inline {
   padding-left: 0;
   margin: 0 auto;
@@ -82,7 +89,6 @@ table{
 }
 
 .container{
-  /*width: 100vh;*/
   height: 90vh;
   margin: 0px auto;
   display: flex;
