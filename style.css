@@ -14,9 +14,9 @@
 /* Colors and Fonts */
 
 body{
- background: #C02425;  /* fallback for old browsers */
- background: -webkit-linear-gradient(to left, #F0CB35, #C02425);
- background: linear-gradient(to left, #F0CB35, #C02425);
+  background: #C02425;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #F0CB35, #C02425);
+  background: linear-gradient(to left, #F0CB35, #C02425);
   font-family: 'stellar', 'Monserrat';
   font-size: 15px;
   line-height: 1.6em;
