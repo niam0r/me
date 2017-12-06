@@ -5,15 +5,13 @@
           url('fonts/stellar/stellar-medium.otf'),
           url('fonts/stellar/stellar-regular.otf');
 }
-
 @font-face {
   font-family: 'anurati';
      src: url('fonts/anurati/anurati.otf');
 }
 
 /* Colors and Fonts */
-
-body{
+body {
   background: #C02425;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #F0CB35, #C02425);
   background: linear-gradient(to left, #F0CB35, #C02425);
@@ -21,73 +19,61 @@ body{
   font-size: 15px;
   line-height: 1.6em;
 }
-
-h1{
+h1 {
   font-family: 'anurati';
   font-size: 22px;
   color: white;
 }
-
-h2, h3{
+h2, h3 {
   font-family: 'stellar', 'Monserrat';
+  color: white;
 }
-
-h2{
+h2 {
   font-size: 18px;
   font-weight: 300;
 }
-
-h3{
+h3 {
   font-size: 16px;
   font-weight: 300;
 }
-
-p{
+p {
   text-align: justify;
   font-family: 'stellar', 'Monserrat';
   font-size: 14px;
   color: #ccc;
 }
-
-a{
+a {
   color: #ccc;
   text-decoration: none;
 }
-
-a:hover{
+a:hover {
   color: #C02425;
   text-decoration: none;
 }
-
-table{
+table {
   font-size: 15px;
   line-height: 1.6em;
 }
 
 /* First simple components */
-
 .navbar {
   background-color: black;
   height: 5vh;
 }
-
 .footer {
   background-color: black;
   height: 5vh;
   display: flex;
   align-items: center;
 }
-
 .list-inline {
   padding-left: 0;
   margin: 0 auto;
 }
-
 .list-inline li {
   display: inline-block;
   padding: 20px;
 }
-
 .container{
   height: 90vh;
   margin: 0px auto;
@@ -95,14 +81,12 @@ table{
   align-items: center;
   justify-content: center;
 }
-
 .contents{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
 .card{
   background: black;
   padding: 20px;
@@ -113,24 +97,20 @@ table{
   transition: box-shadow .4s ease-out;
   position: relative;
 }
-
 .card:hover{
   box-shadow: 0 0 2px 0 rgba(0,0,0,.15), 0 0 5px 0 rgba(0,0,0,.2), 0 25px 25px 0 rgba(0,0,0,.25);
   transition: box-shadow .4s ease-in;
   transition: box-shadow .4s ease-out;
 }
-
 .avatar {
   width: 70px;
   border-radius: 2px;
   box-shadow: 0 1px 2px rgba(0,0,0,0.2);
 }
-
 .righttop {
   position: absolute;
   right: 20px;
 }
-
 .rightbottom {
   position: absolute;
   right: 20px;
