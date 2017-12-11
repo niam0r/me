@@ -11,10 +11,22 @@
 }
 
 /* Colors and Fonts */
+@-webkit-keyframes AnimationName {
+  0%{background-position:54% 0%}
+  50%{background-position:47% 100%}
+  100%{background-position:54% 0%}
+}
+@keyframes AnimationName {
+  0%{background-position:54% 0%}
+  50%{background-position:47% 100%}
+  100%{background-position:54% 0%}
+}
 body {
-  background: #C02425;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #F0CB35, #C02425);
-  background: linear-gradient(to left, #F0CB35, #C02425);
+  background: linear-gradient(27deg, #ff3904, #f3ff04, #36ff04);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 35s ease infinite;
+  animation: AnimationName 35s ease infinite;
+
   font-family: 'stellar', 'Monserrat';
   font-size: 15px;
   line-height: 1.6em;
