@@ -51,11 +51,11 @@ p {
   color: white;
 }
 a {
-  color: white;
+  color: #F3E00B;
   text-decoration: none;
 }
 a:hover {
-  color: #C02425;
+  color: #C2FF0B;
   text-decoration: none;
 }
 table {
