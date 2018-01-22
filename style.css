@@ -53,10 +53,12 @@ p {
 a {
   color: #F3E00B;
   text-decoration: none;
+  transition: all .2s ease-in-out;
 }
 a:hover {
   color: #C2FF0B;
   text-decoration: none;
+  transform: scale(1.3);
 }
 table {
   font-size: 15px;
@@ -115,13 +117,33 @@ table {
   width: 70px;
   border-radius: 2px;
   box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  /*general version*/
+  transition: 10s;
+  /*browser specific versions*/
+  -moz-transition: 10s;
+  -ms-transition: 10s;
+  -webkit-transition: 10s;
+  -o-transition: 10s;
 }
-.righttop {
+.right-top {
   position: absolute;
   right: 20px;
 }
-.rightbottom {
+.right-bottom {
   position: absolute;
   right: 20px;
   bottom: 20px;
+}
+.spinning {
+  /*General*/
+  transform: rotate(-360deg);
+  /*Firefox*/
+  -moz-transform: rotate(-360deg);
+  /*Microsoft Internet Explorer*/
+  -ms-transform: rotate(-360deg);
+  /*Chrome, Safari*/
+  -webkit-transform: rotate(-360deg);
+  /*Opera*/
+  -o-transform: rotate(-360deg);
+  /*alter opacity*/
 }
