@@ -60,14 +60,9 @@ a:hover {
   text-decoration: none;
   transform: scale(1.1);
 }
-li a:hover {
-  color: #C2FF0B;
+
+ul {
   text-decoration: none;
-  transform: scale(1.1);
-}
-table {
-  font-size: 15px;
-  line-height: 1.6em;
 }
 
 /* First simple components */
@@ -90,20 +85,20 @@ table {
   display: inline-block;
   padding: 20px;
 }
-.container{
+.container {
   height: 90vh;
   margin: 0px auto;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.contents{
+.contents {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.card{
+.card {
   background: black;
   padding: 20px;
   margin-bottom: 20px;
@@ -113,11 +108,11 @@ table {
   transition: box-shadow .4s ease-out;
   position: relative;
 }
-.card:hover{
+/*.card:hover {
   box-shadow: 0 0 2px 0 rgba(0,0,0,.15), 0 0 5px 0 rgba(0,0,0,.2), 0 25px 25px 0 rgba(0,0,0,.25);
   transition: box-shadow .4s ease-in;
   transition: box-shadow .4s ease-out;
-}
+}*/
 .avatar {
   width: 70px;
   border-radius: 2px;
@@ -141,14 +136,13 @@ table {
 }
 .spinning {
   /*General*/
-  transform: rotate(-360deg);
+  transform: rotate(-720deg);
   /*Firefox*/
-  -moz-transform: rotate(-360deg);
+  -moz-transform: rotate(-720deg);
   /*Microsoft Internet Explorer*/
-  -ms-transform: rotate(-360deg);
+  -ms-transform: rotate(-720deg);
   /*Chrome, Safari*/
-  -webkit-transform: rotate(-360deg);
+  -webkit-transform: rotate(-720deg);
   /*Opera*/
-  -o-transform: rotate(-360deg);
-  /*alter opacity*/
+  -o-transform: rotate(-720deg);
 }
