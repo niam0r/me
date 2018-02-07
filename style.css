@@ -60,6 +60,11 @@ a:hover {
   text-decoration: none;
   transform: scale(1.1);
 }
+li a:hover {
+  color: #C2FF0B;
+  text-decoration: none;
+  transform: scale(1.1);
+}
 table {
   font-size: 15px;
   line-height: 1.6em;
