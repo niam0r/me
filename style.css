@@ -31,24 +31,27 @@ body {
   font-size: 15px;
   line-height: 1.6em;
 }
+
 h1 {
   font-family: 'anurati';
   font-size: 22px;
   color: white;
 }
+
 h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Overpass Mono', monospace, !important;
   color: #ccc;
-}
-h2 {
   font-size: 18px;
-  font-weight: 300;
 }
+
 p {
   text-align: justify;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Overpass', sans-serif;
   font-size: 14px;
   color: white;
+}
+.overpass {
+  font-family: 'Overpass', sans-serif;
 }
 a {
   color: #F3E00B;
