@@ -1,0 +1,216 @@
+@font-face {
+  font-family: 'anurati';
+     src: url('fonts/anurati/anurati.otf');
+}
+
+/* Colors and Fonts */
+@-webkit-keyframes AnimationName {
+  0%{background-position:54% 0%}
+  50%{background-position:47% 100%}
+  100%{background-position:54% 0%}
+}
+
+@keyframes AnimationName {
+  0%{background-position:54% 0%}
+  50%{background-position:47% 100%}
+  100%{background-position:54% 0%}
+}
+
+body {
+  background: linear-gradient(27deg, #ff3904, #f3ff04, #36ff04);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 35s ease infinite;
+  animation: AnimationName 35s ease infinite;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1 {
+  font-family: 'anurati';
+  font-size: 22px;
+  color: white;
+}
+
+h2 {
+  font-family: 'Overpass Mono', monospace, !important;
+  color: #ccc;
+  font-size: 18px;
+}
+
+p {
+  text-align: justify;
+  font-family: 'Overpass', sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+a {
+  color: #F3E00B;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+
+a:hover {
+  color: #C2FF0B;
+  text-decoration: none;
+  transform: scale(1.05);
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/*li:hover {
+  color: #C2FF0B;
+  text-decoration: none;
+  transform: scale(1.05);
+}*/
+
+/* First simple components */
+.overpass {
+  font-family: 'Overpass', sans-serif;
+}
+
+.navbar {
+  background-color: black;
+  height: 5vh;
+}
+
+.footer {
+  background-color: black;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.list-inline {
+  padding-left: 0;
+  margin: 0 auto;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.container {
+  height: 90vh;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*.card {
+  background: black;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,.15), 0 0 4px 0 rgba(0,0,0,.2), 0 12px 12px 0 rgba(0,0,0,.15);
+  transition: box-shadow .4s ease-in;
+  transition: box-shadow .4s ease-out;
+  position: relative;
+}*/
+
+.card {
+  height: 150px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 40px;
+  border-radius: 50%;
+}
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.card-description h2 {
+  font-size: 24px;
+}
+.card-description p {
+  font-size: 14px;
+  opacity: 0.7;
+  font-weight: lighter;
+}
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+.card-link:hover {
+  opacity: 0.1;
+}
+
+/*.card:hover {
+  box-shadow: 0 0 2px 0 rgba(0,0,0,.15), 0 0 5px 0 rgba(0,0,0,.2), 0 25px 25px 0 rgba(0,0,0,.25);
+  transition: box-shadow .4s ease-in;
+  transition: box-shadow .4s ease-out;
+}*/
+
+.avatar {
+  width: 70px;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  /*general version*/
+  transition: 5s;
+  /*browser specific versions*/
+  -moz-transition: 5s;
+  -ms-transition: 5s;
+  -webkit-transition: 5s;
+  -o-transition: 5s;
+}
+
+.right-top {
+  position: absolute;
+  right: 20px;
+}
+
+.right-bottom {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.spinning {
+  /*General*/
+  transform: rotate(-720deg);
+  /*Firefox*/
+  -moz-transform: rotate(-720deg);
+  /*Microsoft Internet Explorer*/
+  -ms-transform: rotate(-720deg);
+  /*Chrome, Safari*/
+  -webkit-transform: rotate(-720deg);
+  /*Opera*/
+  -o-transform: rotate(-720deg);
+}
